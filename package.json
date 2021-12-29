@@ -5,7 +5,7 @@
   "description": "Small description for travel-guide-app goes here",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Andrei Hristian <hristian.andrei@gmail.com> (https://github.com/ahristian)",
   "directories": {
     "doc": "doc",
     "test": "tests"

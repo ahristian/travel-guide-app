@@ -1,7 +1,121 @@
-{{page-title "TravelGuideApp"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<header>
+  <div class="container bg-img">
+    <div class="row py-2">
+      <div class="md:col-8 sm:col-8">
+        <a href="#idMoldova">
+          <button class="outline-transparent text-cover text-center">
+            Where is Moldova?
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="md:col-8 sm:col-8">
+        <button href="/destinations" class="outline-transparent text-cover">
+          What can I visit in Moldova?
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="md:col-9 sm:col-8">
+        <a href="/traditions">
+          <button class="outline-transparent text-cover">
+            What traditions are in Moldova?
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="md:col-8 sm:col-8">
+        <a href="/foods">
+          <button class="outline-transparent text-cover">
+            What are some traditional food in
+                  Moldova?
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="idMoldova" class="main-map">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>
+          Moldova is in South East part of Europe
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="md:col-12 lg:col-6 map">
+        {{!-- <Map
+                style="mapbox://styles/mapbox/streets-v9"
+                containerStyle={{
+                  height: "70vh"
+                }}
+                center={[23.3699, 47.4116]}
+                zoom={[4]}
+              >
+                {points.map(point => (
+                  <MapFeature point={point} key={point} />
+                ))};
+              </Map> --}}
+      </div>
+      <div class="lg:col-12 md:col-12">
+        <p>
+          Moldova, officially the Republic of Moldova is a country in South Eastern Europe, bordered by
+                Romania to the west and Ukraine to the north, east, and south. The capital and the main city is
+                Chișinău.
+        </p>
+        <p>
+          The Republic of Moldova has a rich cultural heritage which may be of great interest to tourists. The
+                remains of medieval fortresses like Tighina and Soroca, archaeological complexes such as Orheuil Vechi,
+                cave monasteries, nobles’ mansions and peasant houses offer a diversity of visitor attractions.
+        </p>
+        <p>
+          The Moldovan border looks like a grape bunch, and somehow this defines the culture and traditions of
+                this nation. The land is one the best in the world for growing grapes and this makes Moldova a very
+                special country in terms of wines. The wine has long tradition here there are many underground
+                limestone tunnels. The tunnels are lined wall-to-wall with bottles from 60km (37miles) to 120km
+                (75miles) long tunnels, dating from the 15th century wine.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-mainPicture">
+  <div class="imageBackgroundOrhei fluid">
+    <div class="container">
+      <p>
+        Moldova has plenty beautiful nature and architecture. The hospitality tradition stays hard in Moldovan`s
+              peoples heart and they are happy to assist you during your visit.Travel to any corner of Moldova and you
+              will be welcomed by warm and friendly people with food and wine as welcome.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="section-mainWhen">
+  <div class="container" id="thingsToKnow">
+    <div class="row">
+      <div class="lg:col7 md:col-12">
+        <h2>
+          Things to know before visiting Moldova
+        </h2>
+        <p>
+          As other post-Soviet country it is recommended as tourist to be aware and to avoid them. The
+                biggest risk to travelers remains petty theft, such as pick pocketing. This generally occurs in the
+                usual high-risk areas like crowded city streets in Chisinau and on buses and trains, especially
+                international ones. Travelers should only use official taxis "yellow ones" so you don't get ripped
+                off.
+                Be on the lookout for overcharging by taxi drivers and restaurant or bar staff. To avoid this issue,
+                agree on taxi fare before getting in the car and ask to see menu prices in writing before ordering.
+        </p>
+      </div>
+      <div class="lg:col-5">
+        <img class="rounded imageHomeBottom" src="/images/chisinau.jpg" />
+      </div>
+    </div>
+  </div>
+</section>

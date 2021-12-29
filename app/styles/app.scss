@@ -75,7 +75,7 @@
 }
 
 .imageBackgroundOrhei {
-  background-image: linear-gradient(45deg, dimgrey, transparent 50%), url("../shared/images/orheiVechi.png");
+  background-image: linear-gradient(45deg, dimgrey, transparent 50%), url(/images/orheiVechi.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@
   }
 
   .imageBackgroundOrhei {
-      background-image: linear-gradient(45deg, dimgrey 35%, transparent), url("../shared/images/orheiVechi.png");
+      background-image: linear-gradient(45deg, dimgrey 35%, transparent), url(/images/orheiVechi.png);
   }
 
   .section-mainWhen {
@@ -410,7 +410,7 @@
   }
 
   .imageBackgroundOrhei {
-      background-image: linear-gradient(45deg, dimgrey 35%, transparent), url("../shared/images/orheiVechi.png");
+      background-image: linear-gradient(45deg, dimgrey 35%, transparent), url(/images/orheiVechi.png);
   }
 
   .section-mainWhen {
